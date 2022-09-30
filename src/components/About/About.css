@@ -14,3 +14,15 @@
     }
   }
 }
+
+.ImageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Image {
+  border: groove purple;
+  border-radius: 5px;
+  height: 500px;
+  margin: 20px;
+}

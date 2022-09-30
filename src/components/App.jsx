@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 import Layout from './Page/Layout.jsx';
 import Home from './Home/Home.jsx';
-import List from './List/List.jsx';
+import Portfolio from './Portfolio/Portfolio.jsx';
 import About from './About/About.jsx';
 
 export default function App() {
@@ -15,9 +15,9 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="list" element={<List />} />
+          <Route path="portfolio" element={<Portfolio />} />
           <Route path="about" element={<About />} />
+          <Route index element={<Home />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>
