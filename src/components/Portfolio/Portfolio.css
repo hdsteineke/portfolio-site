@@ -1,6 +1,7 @@
 .Portfolio {
   padding: var(--padding);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   li {
     padding: 5px;
@@ -9,10 +10,16 @@
 }
 
 .ProjectContainer {
+  align-items: center;
   border: groove purple;
   border-radius: 5px;
+  margin: 20px;
 }
 
+
+
 .ProjectImage {
-  width: 1000px;
+  width: 800px;
+  border-radius: 5px;
+  margin: 20px;
 }
