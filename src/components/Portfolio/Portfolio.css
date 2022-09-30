@@ -1,8 +1,18 @@
 .Portfolio {
   padding: var(--padding);
-
+  display: flex;
+  justify-content: center;
   li {
     padding: 5px;
     border-style: solid;
   }
+}
+
+.ProjectContainer {
+  border: groove purple;
+  border-radius: 5px;
+}
+
+.ProjectImage {
+  width: 1000px;
 }

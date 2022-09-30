@@ -1,12 +1,13 @@
 import styles from './Portfolio.css';
+import Projects from './Projects';
 
 export default function Portfolio() {
   return (
     <ul className={styles.Portfolio}>
-      {Array.from({ length: 10 }, (x, i) => i + 1).map(
+      {Array.from({ length: 1 }, (x, i) => i + 1).map(
         (n) => (
           <li key={n} className="accent-theme">
-            Reason {n} why you should hire me...
+            <Projects />
           </li>
         )
       )}
