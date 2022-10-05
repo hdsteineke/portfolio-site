@@ -13,16 +13,18 @@ import Resume from './Resume/Resume.jsx';
 
 export default function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="portfolio" element={<PortfolioList />} />
-          <Route path="about" element={<About />} />
-          <Route path="resume" element={<Resume />} />
-          <Route index element={<Home />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Route>
-      </Routes>
-    </Router>
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route path="portfolio" element={<PortfolioList />} />
+            <Route path="about" element={<About />} />
+            <Route path="resume" element={<Resume />} />
+            <Route index element={<Home />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Route>
+        </Routes>
+      </Router>
+    </div>
   );
 }

@@ -33,3 +33,10 @@
     }
   }
 }
+
+.NameLink {
+  color: white;
+  font-family: var(--label-font);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

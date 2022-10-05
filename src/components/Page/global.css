@@ -3,7 +3,7 @@
 }
 
 :root {
-  --primary-font: 'Kodchasan', 'Segoe UI', Candara,
+  --primary-font: 'Kodchasan','Segoe UI', Candara,
     'Bitstream Vera Sans', 'DejaVu Sans',
     'Bitstream Vera Sans', 'Trebuchet MS', Verdana,
     'Verdana Ref', sans-serif;
@@ -11,11 +11,11 @@
     'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat',
     'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
 
-    --paradise-pink: #ea526fff;
-    --smoky-black: #070600ff;
-    --ghost-white: #f7f7ffff;
-    --gold-metallic: #deb841ff;
-    --gamboge: #de9e36ff;
+  --paradise-pink: #ea526fff;
+  --smoky-black: #070600ff;
+  --ghost-white: #f7f7ffff;
+  --gold-metallic: #deb841ff;
+  --gamboge: #de9e36ff;
 
   --header-color: var(--smoky-black);
   --color-2: #40c0cb;
@@ -25,12 +25,6 @@
   --black-color: rgb(27, 42, 48);
   --caption-color: rgb(65, 99, 112);
   --white: white;
-
-  /* --magic-mint: #97ead2ff;
-  --eton-blue: #8cc7a1ff;
-  --french-lilac: #816e94ff;
-  --midnight: #74226cff;
-  --dark-purple: #4b2142ff; */
 
 
   --padding: 20px;
@@ -53,4 +47,8 @@ body {
 
 a {
   color: var(--white);
+}
+
+h1 {
+  font-size: 2.5em;
 }

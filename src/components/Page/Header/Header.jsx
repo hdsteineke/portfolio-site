@@ -9,7 +9,7 @@ export default function Header() {
         <SlideoutMenu />
       </div>
 
-      <h1>Hailey Steineke</h1>
+      <a className={styles.NameLink} >Hailey Steineke</a>
 
       <div className={styles.NavigationContainer}>
         <Navigation />
