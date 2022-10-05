@@ -6,7 +6,7 @@ export default function Navigation() {
     <nav className={styles.Navigation}>
       <NavLink to="portfolio">Portfolio</NavLink>
       <NavLink to="about">About</NavLink>
-      <NavLink to="resume">Resume</NavLink>
+      <NavLink to="resume.pdf">Resume</NavLink>
     </nav>
   );
 }
