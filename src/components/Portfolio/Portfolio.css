@@ -17,11 +17,17 @@
   border-radius: 5px;
   margin: 20px;
   padding: 20px;
+  transition: transform ease 100ms;
+}
+
+.ProjectContainer:hover {
+  transform: scale(1.05);
+  ;
 }
 
 
 .ProjectImage {
-  width: 800px;
+  width: 500px;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -33,5 +39,5 @@ a {
 
 a:hover {
   font-size: 110%;
-  color: blue;
+  color: var(--gold-metallic);
 }
