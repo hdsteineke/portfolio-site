@@ -8,7 +8,7 @@ export const projects = [
     deployed: '',
     github: '',
     technologies: 'React | Cloudinary | Node.js | Material UI | Heroku | Netlify',
-    image: ''
+    image: 'trashapp.PNG'
   },
   {
     id: '2',
@@ -18,7 +18,7 @@ export const projects = [
     deployed: '',
     github: '',
     technologies: 'React | Supabase | Netlify',
-    image: ''
+    image: 'magica.png'
   },
   {
     id: '3',
@@ -28,7 +28,7 @@ export const projects = [
     deployed: '',
     github: '',
     technologies: 'Vanilla JS | Supabase',
-    image: ''
+    image: 'giftwrapp.png'
   },
   {
     id: '4',
