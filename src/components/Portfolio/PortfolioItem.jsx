@@ -6,6 +6,8 @@ export default function PortfolioItem(project) {
     <div className={styles.ProjectContainer}>
       <h1>{project.name}</h1>
       <img className={styles.ProjectImage} src={project.image} />
+      <p>{project.technologies}</p><br/>
+      <p>{project.description}</p>
     </div>
   );
 }

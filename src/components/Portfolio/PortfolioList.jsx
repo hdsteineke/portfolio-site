@@ -6,14 +6,14 @@ import styles from './Portfolio.css';
 export default function Portfolio() {
   const portfolioList = projects.map(project => {
     return (
-      <div key={project.id} className={styles.projectItem}>
+      <div key={project.id}>
         <PortfolioItem { ...project} />
       </div>
     );
   });
 
   return (
-    <div>
+    <div className={styles.Portfolio}>
       {portfolioList}
     </div>
   );
