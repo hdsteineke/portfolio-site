@@ -6,7 +6,7 @@
 
   position: sticky;
   top: 0;
-  background: var(--dark-purple);
+  background: var(--header-color);
   color: var(--white);
   padding-right: var(--padding);
   height: var(--header-height);
@@ -32,4 +32,11 @@
       display: initial;
     }
   }
+}
+
+.NameLink {
+  color: white;
+  font-family: var(--label-font);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }

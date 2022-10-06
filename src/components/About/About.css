@@ -1,16 +1,19 @@
 
 .About {
   padding: var(--padding);
+  border: groove purple;
+  border-radius: 5px;
+  margin: 20px;
+}
 
-  form {
-    background: var(--offset-color);
-    padding: 30px 40px;
-    width: 400px;
-  }
+.ImageContainer {
+  display: flex;
+  justify-content: center;
+}
 
-  .PasswordControl {
-    input {
-      color: black;
-    }
-  }
+.Image {
+  border: groove purple;
+  border-radius: 5px;
+  height: 500px;
+  margin: 20px;
 }

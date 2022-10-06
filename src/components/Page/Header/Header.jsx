@@ -1,6 +1,5 @@
 import SlideoutMenu from './SlideoutMenu.jsx';
 import Navigation from './Navigation.jsx';
-import User from './User.jsx';
 import styles from './Header.css';
 
 export default function Header() {
@@ -10,13 +9,12 @@ export default function Header() {
         <SlideoutMenu />
       </div>
 
-      <h1>My App</h1>
+      <a className={styles.NameLink} >Hailey Steineke</a>
 
       <div className={styles.NavigationContainer}>
         <Navigation />
       </div>
 
-      <User />
     </header>
   );
 }
