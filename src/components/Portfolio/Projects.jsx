@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable max-len */
 import styles from './Portfolio.css';
 
 export default function Project() {
