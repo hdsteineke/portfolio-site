@@ -37,7 +37,7 @@
 body {
   font-family: var(--primary-font);
   background-image: url("../../../public/starrynight.png");
-  color: var(--black-color);
+  color: var(--background-color);
 }
 
 :global(.label-text) {
