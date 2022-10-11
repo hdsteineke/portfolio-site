@@ -46,7 +46,7 @@ export const projects = [
     description: '',
     contribution: '',
     deployed: <a href="https://haileysteineke.netlify.app/">Deployed</a>,
-    github: <a href="https://github.com/hdsteineke/portfolio-site">Deployed</a>,
+    github: <a href="https://github.com/hdsteineke/portfolio-site">GitHub</a>,
     technologies: '',
     image: ''
   },

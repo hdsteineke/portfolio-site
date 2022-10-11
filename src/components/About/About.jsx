@@ -10,7 +10,10 @@ export default function About() {
         <img className={styles.Image} src="lionsmane.png" />
       </section>
       <section className={styles.About}>
-        <p>Hello there! My name is Hailey Steineke, and I am a passionate problem-solver. Whether it&apos;s puzzles, learning new languages, or systematically terminating bugs, I find deep satisfaction in learning new things and applying that knowledge in fun and creative ways. </p>
+        <p>I am a people-oriented programmer who is passionate about co-creating healthy, balanced workspaces with an emphasis on open communication and mutual support. I entered the software industry out of a desire to weave my relational skills with my insatiable appetite for intellection and input. Whether it&apos;s solving puzzles, fixing bugs, or learning languages, I love a good challenge to chew on, and I am looking to join a team that values these skills!
+        
+        When I&apos;m not coding, you can find me playing with goats, reading the stars, and contemplating the nature of existence on this silly space marble. 
+        </p>
       </section>
       <section className={styles.About}>
         <p>Here&apos;s a little bit about my tech stack:</p>

@@ -31,11 +31,12 @@
   @media (min-width: 750px) {
     --padding: 40px;
   }
+
 }
 
 body {
   font-family: var(--primary-font);
-  background: var(--background-color);
+  background-image: url("../../../public/starrynight.png");
   color: var(--black-color);
 }
 
