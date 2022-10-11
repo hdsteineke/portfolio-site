@@ -3,7 +3,7 @@
 }
 
 :root {
-  --primary-font: 'Libre Franklin','Segoe UI', Candara,
+  --primary-font: 'Montserrat','Segoe UI', Candara,
     'Bitstream Vera Sans', 'DejaVu Sans',
     'Bitstream Vera Sans', 'Trebuchet MS', Verdana,
     'Verdana Ref', sans-serif;
@@ -32,6 +32,8 @@
     --padding: 40px;
   }
 
+  @media (min-width: )
+
 }
 
 body {
@@ -52,8 +54,10 @@ a {
 
 h1 {
   font-size: 2.5em;
+  margin-bottom: 10px;
 }
 
 p {
-  font-size: 1em;
+  font-size: 20px;
+  line-height: 1.25;
 }
