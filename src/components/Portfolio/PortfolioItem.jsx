@@ -6,7 +6,7 @@ export default function PortfolioItem(project) {
     <div className={styles.ProjectContainer}>
       <div className={styles.ProjectDescription}>
         <h1><span className={styles.ProjectTitle}>{project.name}</span></h1>
-        <p>{project.github} | {project.deployed}</p>
+        <h2>{project.github} | {project.deployed}</h2>
         <p><span id={styles.Technologies}>{project.technologies}</span></p><br/>
         <p>{project.description}</p><br />
       </div>

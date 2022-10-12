@@ -18,13 +18,18 @@
   transition: transform ease 100ms;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1100px) {
   .ProjectContainer {
   display: flex;
   flex-direction: column;
   }
 }
 
+@media (min-width: 951px) {
+  .ProjectDescription {
+    width: 600px;
+  }
+}
 
 .ProjectContainer:hover {
   transform: scale(1.05);
@@ -37,9 +42,9 @@
 }
 
 .ProjectImage {
-  width: 500px;
+  width: 400px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .ProjectDescription {
