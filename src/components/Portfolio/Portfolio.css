@@ -12,19 +12,28 @@
 
 .ProjectContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: groove purple;
   border-radius: 5px;
-  width: 600px;
   margin: 20px;
   padding: 20px;
   transition: transform ease 100ms;
 }
 
+@media (max-width: 767px) {
+  .ProjectContainer {
+  display: flex;
+  flex-direction: column;
+  }
+}
+
+
 .ProjectContainer:hover {
   transform: scale(1.05);
   ;
+}
+
+.ProjectTitle {
+  color: var(--gold);
+  font-weight: bold;
 }
 
 .ProjectImage {
@@ -33,12 +42,22 @@
   margin-bottom: 20px;
 }
 
+.ProjectDescription {
+  padding: 20px;
+  }
+
 a {
   text-decoration: none;
   color: white;
 }
 
 a:hover {
-  font-size: 110%;
+  font-size: 22px;;
   color: var(--gold-metallic);
 }
+
+#Technologies {
+  font-size: 15px;
+}
+
+@media (max-width: )
