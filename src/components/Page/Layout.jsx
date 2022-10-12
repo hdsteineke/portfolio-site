@@ -15,7 +15,7 @@ export default function Layout() {
         <main>
           <Outlet />
         </main>
-        {/* <FooterNav /> */}
+        <FooterNav />
       </div>
     </>
   );

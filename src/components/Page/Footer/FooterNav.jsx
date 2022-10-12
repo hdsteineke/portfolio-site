@@ -1,6 +1,8 @@
-import styles from '../Header/Header.css';
+import styles from '../Footer/FooterNav.css';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 export default function FooterNav() {
   return (
-    <div className={styles.Header}>FooterNav</div>
+    <div className={styles.Footer}>This is a Footer!</div>
   );
 }
