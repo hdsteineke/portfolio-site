@@ -17,3 +17,8 @@
   gap: 20px;
   align-items: center;
 }
+
+.Icon:hover {
+  font-size: 30px;
+  color: var(--gold-metallic);
+}
