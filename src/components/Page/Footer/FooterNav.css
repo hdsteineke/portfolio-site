@@ -11,8 +11,9 @@
   padding-right: var(--padding);
   height: var(--header-height);
 
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   gap: 20px;
   align-items: center;
 }
