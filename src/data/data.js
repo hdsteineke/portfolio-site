@@ -3,8 +3,8 @@ export const projects = [
   {
     id: '1',
     name: 'TrashApp',
-    description: 'A social media app where users can upload images of items and crowd-source opinions on whether items pictured should be trashed or treasured via up/down voting. Completed over the course of a two-week sprint.',
-    contribution: '',
+    description: 'A social media app for users to crowd-source opinions about whether their possessions are trash or treasure. Users can upload images of items in a post, as well as up/down vote on other users posts, and even save their favorite posts to a "favorites" page. This project was developed remotely over the course of a two-week sprint.',
+    contribution: <a href="/portfolio/trashapp">Read more...</a>,
     deployed: <a href="https://coruscating-duckanoo-7b598c.netlify.app/">Deployed</a>,
     github: <a href="https://github.com/Gift-WrApp-Crew">GitHub</a>,
     technologies: 'React | Cloudinary | Node.js | Material UI | Heroku | Netlify',
