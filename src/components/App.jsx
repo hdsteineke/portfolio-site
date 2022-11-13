@@ -26,9 +26,9 @@ export default function App() {
             <Route path="portfolio/magica" element={<Magica />} />
             <Route path="portfolio/giftwrapp" element={<Giftwrapp />} />
             <Route path="portfolio/alchemeetings" element={<Alchemeetings />} />
-            <Route path="about" element={<About />} />
+            <Route path="/" element={<About />} />
             <Route path="resume" element={<Resume />} />
-            <Route index element={<Home />} />
+            {/* <Route index element={<Home />} /> */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Routes>
