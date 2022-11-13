@@ -1,3 +1,16 @@
-.Home {
+main {
   padding: var(--padding);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Home {
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.TeckStack {
+  width: 600px;
 }
