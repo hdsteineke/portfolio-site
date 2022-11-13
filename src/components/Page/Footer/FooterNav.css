@@ -19,6 +19,5 @@
 }
 
 .Icon:hover {
-  font-size: 30px;
   color: var(--gold-metallic);
 }
