@@ -3,7 +3,7 @@ export const projects = [
   {
     id: '1',
     name: 'TrashApp',
-    description: 'A full-stack social media app developed for users to crowd-source opinions about whether their possessions are trash or treasure. Users can upload images of items in a post, up/down vote on posts, and save posts to a "favorites" page. This project was built by a remote team over the course of a two-week sprint.',
+    description: 'A full-stack social media app developed for users to crowd-source opinions about whether their possessions are trash or treasure. Through the integration of Cloudinary image-hosting services, users can upload images in a post, in addition to up/down voting on posts, and saving posts to a "favorites" page. This project was built by a remote team over the course of a two-week sprint.',
     deployed: <a href="https://coruscating-duckanoo-7b598c.netlify.app/">Deployed</a>,
     github: <a href="https://github.com/Gift-WrApp-Crew">GitHub</a>,
     technologies: 'React | SQL | Cloudinary | Node.js | Material UI | Heroku | Netlify',
