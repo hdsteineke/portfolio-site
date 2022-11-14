@@ -1,6 +1,5 @@
 
 .Portfolio {
-  padding: var(--padding);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -12,34 +11,62 @@
 
 .ProjectContainer {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  border: groove purple;
   border-radius: 5px;
-  width: 600px;
   margin: 20px;
   padding: 20px;
   transition: transform ease 100ms;
 }
 
+@media (max-width: 1110px) {
+  .ProjectContainer {
+  display: flex;
+  flex-direction: column;
+  }
+}
+
+@media (min-width: 951px) {
+  .ProjectDescription {
+    width: 600px;
+  }
+}
+
 .ProjectContainer:hover {
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
+  outline: none;
+  border-color: #9ecaed;
+  border-radius: 25px;
+  box-shadow: 0 0 35px #9ecaed;
   ;
 }
 
+.ProjectTitle {
+  color: var(--gold);
+  font-weight: bold;
+}
 
 .ProjectImage {
-  width: 500px;
+  width: 400px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
+
+.ProjectDescription {
+  padding: 20px;
+  }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
-  font-size: 110%;
+  /* font-size: 22px; */
   color: var(--gold-metallic);
 }
+
+#Technologies {
+  font-size: 15px;
+}
+
+@media (max-width: )

@@ -1,0 +1,24 @@
+.Footer {
+  --header-height: 35px;
+  @media (min-width: 750px) {
+    --header-height: 50px;
+  }
+
+  position: sticky;
+  bottom: 0;
+  background: var(--header-color);
+  color: var(--white);
+  padding-right: var(--padding);
+  height: var(--header-height);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.Icon:hover {
+  color: var(--gold-metallic);
+  cursor: pointer;
+}

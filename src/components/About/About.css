@@ -1,9 +1,19 @@
 
+.AboutContainer {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin: 20px;
+}
+
+
 .About {
-  padding: var(--padding);
-  border: groove purple;
+  padding: 20px;
   border-radius: 5px;
   margin: 20px;
+  max-width: 767px;
+
 }
 
 .ImageContainer {
@@ -12,8 +22,16 @@
 }
 
 .Image {
-  border: groove purple;
   border-radius: 5px;
-  height: 500px;
+  height: 400px;
   margin: 20px;
+}
+
+.Pronouns {
+font-size: 30px;
+color: var(--gold-metallic);
+}
+
+.Highlight {
+color: var(--gold-metallic);
 }
