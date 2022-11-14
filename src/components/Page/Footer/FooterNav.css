@@ -20,4 +20,5 @@
 
 .Icon:hover {
   color: var(--gold-metallic);
+  cursor: pointer;
 }
