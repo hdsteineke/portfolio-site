@@ -13,7 +13,7 @@ export const projects = [
     id: '2',
     name: 'Magica',
     description: 'A dynamic full-stack CRUD app that allows users to build and customize Magic the Gathering decks using a 3rd party RESTful API. This project was developed by a remote team in a 1-week sprint.',
-    deployed: <a href="https://endearing-paletas-f049d6.netlify.app/">Deployed</a>,
+    deployed: 'Deployed',
     github: <a href="https://github.com/Magica-Drafter/Magica">GitHub</a>,
     technologies: 'React | Supabase | Netlify',
     image: 'magica.png'
@@ -31,7 +31,7 @@ export const projects = [
     id: '4',
     name: 'Alchemeetings the SQL',
     description: 'A backend built with SQL to provide a cleaner, more manageable user experience of the existing Alchemy Zoom classrooms. This app implements GitHub OAuth for user authentication and was developed remotely in a one-week sprint.',
-    deployed: <a href="https://alchemeetings-backend.herokuapp.com/">Deployed</a>,
+    deployed: 'Deployed',
     github: <a href="https://github.com/Alchemy-Meeting-Backend/alchemy-meetings-backend">GitHub</a>,
     technologies: 'SQL | GitHub OAuth | Jest | Express | Node.js',
     image: 'alchemeetingSQL.png'
