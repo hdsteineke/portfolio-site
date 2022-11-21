@@ -13,7 +13,7 @@ export const projects = [
     id: '2',
     name: 'Magica',
     description: 'A dynamic full-stack CRUD app that allows users to build and customize Magic the Gathering decks using a 3rd party RESTful API. This project was developed by a remote team in a 1-week sprint.',
-    deployed: 'Deployed',
+    deployed: <a href="https://endearing-paletas-f049d6.netlify.app/">Deployed</a>,
     github: <a href="https://github.com/Magica-Drafter/Magica">GitHub</a>,
     technologies: 'React | Supabase | Netlify',
     image: 'magica.png'
