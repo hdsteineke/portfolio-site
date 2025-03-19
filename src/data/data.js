@@ -12,6 +12,15 @@ export const projects = [
   },
   {
     id: '2',
+    name: 'Pure Intentions Website',
+    description: 'A customized website-builder to make website management accessible for the business owner and their team. Still in beta-testing.',
+    deployed: <a href="https://preview.pureintentionsinc.com/">Deployed</a>,
+    github: <a href="https://github.com/OliverEvans96/pi-web">GitHub</a>,
+    technologies: 'Astro.js | Node.js | TypeScript | Payload CMS | MongoDB | Tailwind CSS',
+    image: 'pureintentions.PNG'
+  },
+  {
+    id: '2',
     name: 'TrashApp',
     description: 'A full-stack social media app developed for users to crowd-source opinions about whether their possessions are trash or treasure. Through the integration of Cloudinary image-hosting services, users can upload images in a post, in addition to up/down voting on posts, and saving posts to a "favorites" page. This project was built by a remote team over the course of a two-week sprint.',
     deployed: 'Deployed',
