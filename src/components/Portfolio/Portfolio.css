@@ -1,7 +1,7 @@
-
 .Portfolio {
   display: flex;
   flex-wrap: wrap;
+  padding: 50px;
   justify-content: center;
   li {
     padding: 5px;
@@ -11,19 +11,19 @@
 
 .ProjectContainer {
   opacity: 1;
-  background: black;
+  background: white;
   display: flex;
   align-items: center;
-  border-radius: 5px;
-  margin: 20px;
+  border-radius: 25px;
+  margin: 50px;
   padding: 20px;
   transition: transform ease 100ms;
 }
 
 @media (max-width: 1110px) {
   .ProjectContainer {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -36,9 +36,9 @@
 .ProjectContainer:hover {
   /* transform: scale(1.05); */
   outline: none;
-  border-color: #9ecaed;
+  border-color:rgb(189, 189, 189);
   border-radius: 25px;
-  box-shadow: 0 0 35px #9ecaed;
+  box-shadow: 0 0 35px rgb(189, 189, 189);
   ;
 }
 
@@ -59,13 +59,14 @@
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:hover {
   /* font-size: 22px; */
   color: var(--gold-metallic);
 }
+
 
 #Technologies {
   font-size: 15px;

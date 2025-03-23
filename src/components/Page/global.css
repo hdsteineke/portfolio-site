@@ -11,17 +11,17 @@
     'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat',
     'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
 
-  --paradise-pink: #ea526fff;
+  --paradise-pink:rgb(111, 66, 74);
   --smoky-black: #070600ff;
   --ghost-white: #f7f7ffff;
   --gold-metallic: #deb841ff;
   --gold: #a88410ff;
-  --gamboge: #de9e36ff;
+  --papyrus:rgb(231, 229, 221);
 
   --header-color: var(--smoky-black);
   --color-2: #40c0cb;
   --offset-color: #d3dcbd;
-  --color-4: #b9d660;
+  --green:rgb(67, 75, 45);
   --background-color: var(--ghost-white);
   --black-color: rgb(27, 42, 48);
   --caption-color: rgb(65, 99, 112);
@@ -39,8 +39,9 @@
 
 body {
   font-family: var(--primary-font);
-  background-image: url("../../../public/starrynight.png");
-  color: var(--background-color);
+  background: var(--papyrus);
+  /* background-image: url("../../../public/starrynight.png"); */
+  /* color: var(--background-color); */
 }
 
 :global(.label-text) {

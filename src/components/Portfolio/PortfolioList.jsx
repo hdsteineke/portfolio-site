@@ -14,6 +14,7 @@ export default function Portfolio() {
 
   return (
     <div className={styles.Portfolio}>
+      <h1>My Projects:</h1>
       {portfolioList}
     </div>
   );

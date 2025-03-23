@@ -6,7 +6,7 @@
 
   position: sticky;
   bottom: 0;
-  background: var(--header-color);
+  background: var(--paradise-pink);
   color: var(--white);
   padding-right: var(--padding);
   height: var(--header-height);

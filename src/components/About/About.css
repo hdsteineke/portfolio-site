@@ -29,9 +29,10 @@ margin: 20px;
 
 .Pronouns {
 font-size: 30px;
-color: var(--gold-metallic);
+color: var(--gold);
 }
 
 .Highlight {
-color: var(--gold-metallic);
+color: var(--gold);
+font-weight: bold;
 }
