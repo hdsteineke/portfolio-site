@@ -11,9 +11,11 @@ export default function About() {
       </section>
       <section className={styles.About}>
         <h1>Hailey Steineke <span className={styles.Pronouns}>(she/her)</span></h1>
-        <p>I am a <span className={styles.Highlight}>people-oriented</span> programmer who is passionate about co-creating workspaces that emphasize <span className={styles.Highlight}>open communication and mutual support</span>. I entered the software industry with the desire to weave my <span className={styles.Highlight}>relational skills</span> with my insatiable appetite for <span className={styles.Highlight}>problem-solving and pattern-recognition</span>. Whether it&apos;s solving puzzles, fixing bugs, or learning languages, I love a good challenge to chew on, and I am looking to join a team that values these skills!<br /><br />
+        <p>As a junior software developer with a strong foundation in <span className={styles.Highlight}>communication, language, and critical inquiry</span>, I bring a uniquely human-centered approach to technology. My background is rooted in a <span className={styles.Highlight}>deep curiosity about systems--natural, social and digital--</span>and I thrive when working on projects that align with values of equity, sustainability and purpose. I excel at asking the right questions, <span className={styles.Highlight}>translating complex ideas into accessible language</span>, and fostering collaborative environments.<br /><br />
+
+        With a passion for learning and a commitment to building tools that serve people and planet, I&apos;m excited to contribute to <span className={styles.Highlight}>mission-driven teams</span> where thoughtful design, ethical development, and social impact are valued.<br /><br />
         
-        When I&apos;m not coding, you can find me playing with goats, reading the stars, and contemplating the nature of existence on this silly space marble. 
+        When I&apos;m not coding, you can find me listening to the birds, reading the stars, and contemplating the nature of existence on this silly space marble. 
         </p>
       </section>
 
