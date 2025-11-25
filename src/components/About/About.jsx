@@ -3,7 +3,11 @@
 
 import styles from './About.css';
 
+
+
 export default function About() {
+
+
   return (
     <div className={styles.AboutContainer}>
       <section className={styles.ImageContainer}>
@@ -11,11 +15,15 @@ export default function About() {
       </section>
       <section className={styles.About}>
         <h1>Hailey Steineke <span className={styles.Pronouns}>(she/her)</span></h1>
-        <p>As a junior software developer with a strong foundation in <span className={styles.Highlight}>communication, language, and critical inquiry</span>, I bring a uniquely human-centered approach to technology. My background is rooted in a <span className={styles.Highlight}>deep curiosity about systems--natural, social and digital--</span>and I thrive when working on projects that align with values of equity, sustainability and purpose. I excel at asking the right questions, <span className={styles.Highlight}>translating complex ideas into accessible language</span>, and fostering collaborative environments.<br /><br />
-
-        With a passion for learning and a commitment to building tools that serve people and planet, I&apos;m excited to contribute to <span className={styles.Highlight}>mission-driven teams</span> where thoughtful design, ethical development, and social impact are valued.<br /><br />
+        <p>I have many interests, of which coding is just one. What really draws me in is language: the power and meaning behind a set of words or commands. The symbolism and patterns used to convey those meanings, and all the creative potential unlocked when one is able to speak a respective language. I see it in programming, spoken word, music, astrology, just to name a few.
+          <br></br>
+          <br></br>
+          
+        What brings me here is my desire to use the language of programming to create tools that inspire and support others on their individual journeys through healthy, creative living, as well as express my own creativity.<span className={styles.Highlight}>&apos;</span>.
+          <br></br>
+          <br></br>
         
-        When I&apos;m not coding, you can find me listening to the birds, reading the stars, and contemplating the nature of existence on this silly space marble. 
+        If any of my work or interests you, feel free to connect with me on <span className={styles.Highlight}><a href="https://www.linkedin.com/in/haileysteineke/">LinkedIn!</a></span>
         </p>
       </section>
 
